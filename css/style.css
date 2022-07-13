@@ -4,7 +4,8 @@ body {
     color: #fff;
 }
 
-body h1, body h2 {
+body h1,
+#description {
     text-align: center;
     text-shadow: 1px 1px #000;
 }
@@ -21,13 +22,13 @@ form input[type=text],
 form input[type=email],
 form input[type=number],
 form textarea {
-    width: 100%;
+    width: 96%;
     padding: 10px 15px;
     border-radius: 5px;
     border: 0;
     font-size: 15px;
 }
-form .select {
+    #dropdown {
     width: 100%;
     height: 40px;
     border-radius: 5px;
